@@ -184,11 +184,6 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD
-  - component: {fileID: 1511543429}
-  - component: {fileID: 1511543428}
-  - component: {fileID: 1511543430}
-=======
   - component: {fileID: 334433759}
   - component: {fileID: 334433760}
   m_Layer: 0
@@ -225,7 +220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: faa68f6231125034cb57fb4fcc6c3c63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  coinPrefab: {fileID: 0}
+  coinPrefab: {fileID: 589709791885086174, guid: c88a12816cb38e94bb271d15a32962c7, type: 3}
   playerTransform: {fileID: 0}
   laneDistance: 3
   spawnDistance: 30
@@ -526,6 +521,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c88a12816cb38e94bb271d15a32962c7, type: 3}
+--- !u!1 &623988189 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 589709791885086174, guid: c88a12816cb38e94bb271d15a32962c7, type: 3}
+  m_PrefabInstance: {fileID: 1971487455249726921}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &630395379
 GameObject:
   m_ObjectHideFlags: 0
@@ -908,7 +908,7 @@ MonoBehaviour:
   rowSpacing: 15
   maxBlockedLanesPerRow: 1
   spawnHeight: 0
-  initialSafeDistance: 20
+  initialSafeDistance: 30
 --- !u!4 &761629683
 Transform:
   m_ObjectHideFlags: 0
@@ -1010,9 +1010,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: faa68f6231125034cb57fb4fcc6c3c63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  coinPrefab: {fileID: 0}
-  playerTransform: {fileID: 0}
-  laneDistance: 3
+  coinPrefab: {fileID: 623988189}
+  playerTransform: {fileID: 2096826933}
+  laneDistance: 6
   spawnDistance: 30
   spawnInterval: 10
 --- !u!4 &1186330870
@@ -1098,7 +1098,6 @@ GameObject:
   - component: {fileID: 1546961315}
   - component: {fileID: 1546961314}
   - component: {fileID: 1546961313}
->>>>>>> 6cd3e0a36fdb6e9e15a5c007b85a654070dc0bf5
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -1215,40 +1214,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
-<<<<<<< HEAD
---- !u!114 &1511543430
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1511543427}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalLightData
-  m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
-  m_CustomShadowLayers: 0
-  m_LightCookieSize: {x: 1, y: 1}
-  m_LightCookieOffset: {x: 0, y: 0}
-  m_SoftShadowQuality: 0
-  m_RenderingLayersMask:
-    serializedVersion: 0
-    m_Bits: 1
-  m_ShadowRenderingLayersMask:
-    serializedVersion: 0
-    m_Bits: 1
-  m_Version: 4
-  m_LightLayerMask: 1
-  m_ShadowLayerMask: 1
-  m_RenderingLayers: 1
-  m_ShadowRenderingLayers: 1
---- !u!1 &1822519449
-=======
 --- !u!1 &1638357207
->>>>>>> 6cd3e0a36fdb6e9e15a5c007b85a654070dc0bf5
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1256,14 +1222,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD
-  - component: {fileID: 1822519452}
-  - component: {fileID: 1822519451}
-  - component: {fileID: 1822519450}
-  - component: {fileID: 1822519453}
-=======
   - component: {fileID: 1638357208}
->>>>>>> 6cd3e0a36fdb6e9e15a5c007b85a654070dc0bf5
   m_Layer: 0
   m_Name: groundcheack
   m_TagString: Untagged
@@ -1586,9 +1545,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
---- !u!114 &1822519453
-=======
 --- !u!1 &2096826929
 GameObject:
   m_ObjectHideFlags: 0
@@ -1732,52 +1688,11 @@ CharacterController:
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2096826937
->>>>>>> 6cd3e0a36fdb6e9e15a5c007b85a654070dc0bf5
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1822519449}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
-  m_RenderShadows: 1
-  m_RequiresDepthTextureOption: 2
-  m_RequiresOpaqueTextureOption: 2
-  m_CameraType: 0
-  m_Cameras: []
-  m_RendererIndex: -1
-  m_VolumeLayerMask:
-    serializedVersion: 2
-    m_Bits: 1
-  m_VolumeTrigger: {fileID: 0}
-  m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
-  m_Antialiasing: 0
-  m_AntialiasingQuality: 2
-  m_StopNaN: 0
-  m_Dithering: 0
-  m_ClearDepth: 1
-  m_AllowXRRendering: 1
-  m_AllowHDROutput: 1
-  m_UseScreenCoordOverride: 0
-  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
-  m_RequiresDepthTexture: 0
-  m_RequiresColorTexture: 0
-  m_TaaSettings:
-    m_Quality: 3
-    m_FrameInfluence: 0.1
-    m_JitterScale: 1
-    m_MipBias: 0
-    m_VarianceClampScale: 0.9
-    m_ContrastAdaptiveSharpening: 0
-  m_Version: 2
-=======
   m_GameObject: {fileID: 2096826929}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1904,7 +1819,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f9364e31331eea46a16b62408502585, type: 3}
->>>>>>> 6cd3e0a36fdb6e9e15a5c007b85a654070dc0bf5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
